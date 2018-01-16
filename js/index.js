@@ -259,9 +259,9 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
                     ag.style.display = 'block';
                     ah.href = 'https://i.weread.qq.com/download?from=Website&type=Android';
                 }
-                if (GLOBAL.DEVICE_TYPE) {
-                    M.style.backgroundImage = 'url("images/mobile_function3_table_background_3x.png")';
-                }
+                // if (GLOBAL.DEVICE_TYPE) {
+                //     M.style.backgroundImage = 'url("images/mobile_function3_table_background_3x.png")';
+                // }
                 if ((USER_AGENT.toLocaleLowerCase().match(/safari/) && !USER_AGENT.toLocaleLowerCase().match(/chrome/)) || (USER_AGENT.toLocaleLowerCase().match(/iphone/)) && (USER_AGENT.toLocaleLowerCase().match(/micromessenger/))) {
                     o.style.letterSpacing = '-1px';
                     B.style.letterSpacing = '-1px';
