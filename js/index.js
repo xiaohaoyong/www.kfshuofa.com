@@ -253,11 +253,11 @@ if (USER_AGENT.match(/MSIE 8./) || USER_AGENT.match(/MSIE 7./) || USER_AGENT.mat
                 } else if (GLOBAL.DEVICE_TYPE === 1) {
                     ax.style.display = 'none';
                     ai.style.display = 'block';
-                    ah.href = 'https://i.weread.qq.com/download?from=Website&type=iOS';
+                    ah.href = 'https://itunes.apple.com/us/app/id1335942823';
                 } else if (GLOBAL.DEVICE_TYPE === 2) {
                     ax.style.display = 'none';
                     ag.style.display = 'block';
-                    ah.href = 'https://i.weread.qq.com/download?from=Website&type=Android';
+                    ah.href = 'http://www.kfshuofa.com/shuofa.apk';
                 }
                 // if (GLOBAL.DEVICE_TYPE) {
                 //     M.style.backgroundImage = 'url("images/mobile_function3_table_background_3x.png")';
